@@ -1,83 +1,126 @@
-/* Dark Theme Styling */
+/* Reset defaults */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Base styling for body */
 body {
-    background-color: #121212;
-    color: #E0E0E0;
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+  background-color: #111;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.6;
+  font-size: 16px;
 }
 
-/* Header */
+/* Header styling */
 header {
-    background-color: #1A1A1A;
-    padding: 20px;
-    text-align: center;
+  background: #000;
+  padding: 20px 40px;
+  border-bottom: 2px solid #FFD700;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-h1 {
-    color: #FFD700;
+header .logo {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 2rem;
+  color: #FFD700;
 }
 
-/* Navigation Menu */
+header .logo span {
+  color: #fff;
+}
+
 nav ul {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-}
-
-nav ul li {
-    margin: 0 15px;
+  list-style: none;
+  display: flex;
+  gap: 15px;
 }
 
 nav ul li a {
-    color: #FFD700;
-    text-decoration: none;
-    font-size: 18px;
-    transition: 0.3s;
+  text-decoration: none;
+  color: #fff;
+  padding: 8px 12px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  font-family: 'Orbitron', sans-serif;
+  transition: background 0.3s, color 0.3s, border-color 0.3s;
 }
 
-nav ul li a:hover {
-    color: #FFA500;
+nav ul li a:hover,
+nav ul li a:focus {
+  background: #FFD700;
+  color: #000;
+  border-color: #FFD700;
 }
 
-/* Game Sections */
+/* Main content styling */
+main {
+  padding: 40px 20px;
+}
+
 .game-section {
-    text-align: center;
-    padding: 40px 20px;
-    border-bottom: 2px solid #FFD700;
+  margin-bottom: 60px;
+  padding: 30px;
+  border: 2px solid #FFD700;
+  border-radius: 10px;
+  background: #1a1a1a;
 }
 
 .game-section h2 {
-    color: #FFD700;
-    font-size: 28px;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 2.2rem;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #FFD700;
 }
 
 .game-section p {
-    font-size: 18px;
-    margin-bottom: 20px;
+  font-size: 1.1rem;
+  margin-bottom: 15px;
 }
 
 .game-section ul {
-    list-style: disc;
-    padding-left: 1.5rem;
+  margin-left: 20px;
+  margin-bottom: 15px;
 }
 
 .game-section li {
-    font-size: 16px;
-    margin-bottom: 10px;
+  margin-bottom: 10px;
+  font-size: 1rem;
 }
 
 .game-section img {
-    max-width: 100%;
-    height: auto;
-    margin-top: 20px;
-    border-radius: 8px;
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+  border-radius: 8px;
+  display: block;
+  margin: 20px auto 0;
 }
 
-/* Footer */
+/* Footer styling */
 footer {
+  background: #000;
+  border-top: 2px solid #FFD700;
+  padding: 20px;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
     text-align: center;
-    padding: 15px;
-    background-color: #1A1A1A;
+  }
+  
+  nav ul {
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+  }
 }
