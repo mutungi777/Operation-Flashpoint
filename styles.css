@@ -1,4 +1,4 @@
-/* General Styles */
+/* Dark Theme Styling */
 body {
     background-color: #121212;
     color: #E0E0E0;
@@ -41,10 +41,38 @@ nav ul li a:hover {
     color: #FFA500;
 }
 
-/* Main Content */
-.intro {
+/* Game Sections */
+.game-section {
     text-align: center;
-    margin-top: 50px;
+    padding: 40px 20px;
+    border-bottom: 2px solid #FFD700;
+}
+
+.game-section h2 {
+    color: #FFD700;
+    font-size: 28px;
+}
+
+.game-section p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.game-section ul {
+    list-style: disc;
+    padding-left: 1.5rem;
+}
+
+.game-section li {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.game-section img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 8px;
 }
 
 /* Footer */
