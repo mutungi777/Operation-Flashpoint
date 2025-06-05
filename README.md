@@ -70,6 +70,7 @@ For questions or suggestions, feel free to reach out:
 
 - **Email**: noahsdom@gmail.com
 - **GitHub**: [mutungi777](https://github.com/mutungi777)
+- **GitHub**: [NoahDomingues](https://github.com/NoahDomingues)
 
 You can also find the latest releases [here](https://github.com/mutungi777/Operation-Flashpoint/releases). 
 
