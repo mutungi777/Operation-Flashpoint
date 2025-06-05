@@ -68,7 +68,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for more 
 
 For questions or suggestions, feel free to reach out:
 
-- **Email**: yourname@example.com
+- **Email**: noahsdom@gmail.com
 - **GitHub**: [mutungi777](https://github.com/mutungi777)
 
 You can also find the latest releases [here](https://github.com/mutungi777/Operation-Flashpoint/releases). 
